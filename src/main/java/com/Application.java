@@ -33,5 +33,7 @@ public class Application {
          tomcat.start();
          tomcat.getServer().await();
 
+        System.out.println("hello world");
+
     }
 }
